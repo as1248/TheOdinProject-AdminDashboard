@@ -180,19 +180,16 @@ body {
 
 .projects {
   grid-area: projects;
-  border: 1px solid black;
   padding: 20px;
 }
 
 .announcements {
   grid-area: announcements;
-  border: 1px solid black;
   padding: 20px;
 }
 
 .trending {
   grid-area: trending;
-  border: 1px solid black;
   padding: 20px;
 }
 
