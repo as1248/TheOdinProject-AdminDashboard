@@ -41,3 +41,48 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+@font-face {
+  font-family: roboto;
+  src: url('./Roboto/Roboto-Regular.ttf');
+}
+
+body {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  height: 100vh;
+  font-family: roboto;
+}
+
+.sideBar {
+  background-color: #1992D4;
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.sideBar_header {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.sideBar_header img {
+  width: 48px;
+  margin-right: 15px;
+}
+
+.sideBar_content {
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+.sideBar_content > div {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.sideBar_content img {
+  width: 32px;
+  margin-right: 15px;
+}
